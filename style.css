@@ -1,0 +1,202 @@
+div {
+   background-color: white;
+   border: solid 1px white;
+   border-radius: 10px;
+}
+.putin {
+   width: 100%;
+   height:100%;
+}
+.ss1 {
+   margin-left:-13%;
+}
+h2 {
+   margin: 0;
+} 
+td {
+   width: 50px;
+   height: 50px;
+}
+th {
+   width: 50px;
+   height:50px;
+}
+.textout {
+   margin-left: 3%;
+}
+.glm {
+   position: relative;
+}
+.invisible {
+   display: none;
+   list-style-type: none;
+}
+.glm:hover .invisible {
+   display: list-item;
+   position: absolute;
+   padding: 1%;
+   left: 0;
+   border: solid 2px black;
+   border-radius: 5px;
+   background-color: white;
+   text-align: center;
+}
+.img {
+   float: left;
+   height: 50px;   
+   border: solid 5px white;
+}
+.test {
+   border: solid 2px black;
+   float: left;
+   text-align: justify;
+   border-radius: 5px;
+   width: 18%;
+}
+a {
+   display: inline;
+   top: 100%;
+}
+h1 {
+   margin-bottom:0;
+}
+.invisible {
+   display: none;
+}
+.online {
+   display: inline;
+}
+li {
+   list-style-type: none;
+}
+
+.hrefs {
+   text-indent: 5%;
+   padding-left: 30%;
+}
+.text {
+   text-align: justify;
+   padding-left: 1%;
+   padding-right: 1%;
+}
+.putinoff {
+   padding-left: 35%;
+   padding-right: 35%;
+}
+.texttext {
+   padding-left: 1%;
+}
+.textik {
+   height: 200px;
+}
+.tech {
+   padding-left: 35%;
+}
+body {
+   background-color: pink;
+   margin-top: 0;
+   margin-left: 10%;
+   margin-right: 10%; 
+}
+.result {
+   float: none;
+   width: 18%;
+   padding-left: 39%;
+}
+.dopkin {
+   float: right;
+   width: 35%;
+   margin: 1%;
+   background-color: silver;
+}
+.dopkininside {
+   border: none;
+   background-color: silver;
+   text-indent: 5%;
+   padding: 2%;
+}
+.dopkinskinhead {
+   padding-left: 2%;
+   margin:0;
+}
+.obp2 {
+   text-indent: 5%;
+}
+.main {
+   border-radius: 15px;
+   padding-left: 12%;
+   text-align: left;
+}
+.foot {
+   float: none;
+   padding-left: 40%;
+   padding-right: 40%;
+}
+@media (max-width: 992px) {
+   .test {
+      margin: 1%;
+      float: none;
+      width: 100%;
+   }
+   body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+   }
+   .foot {
+      float: none;
+      padding-left: 30%;
+      padding-right: 30%;
+   }
+   .main {
+      border-radius: 15px;
+      padding-left: 3%;
+      padding-right: 3%;
+      text-align: justify;
+   }
+   .putinoff {
+      padding-left: 20%;
+      padding-right: 20%;
+   }
+   .textik {
+      text-indent: 5%;
+   }
+   .hrefs {
+      text-indent: 5%;
+      padding-left: 15%;
+   }
+   .textout {
+      margin-right: 3%;
+   }
+   .ss1 { 
+      background-color: white;
+      margin-left: 0;
+      height: 3%;
+      padding-left: 4%;
+      padding-top: 1%;
+      padding-bottom: 0;
+      padding-right: 2%;
+      width: 21%;
+      position: fixed;
+      bottom: 9px;
+      left: 0;
+      border-radius: 2px;
+      border: solid 3px orange;
+   }
+   .dopkininside {
+      text-indent: 5%;
+      text-align: justify;
+   }
+   h2 {
+      margin: 0;
+   }
+   .muha {
+      text-indent: 5%;
+      text-align: justify;
+   }
+   .dopkin {
+      float: none;
+      width: 100%;
+      background-color: silver;
+   }
+}
